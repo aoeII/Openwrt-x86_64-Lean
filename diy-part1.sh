@@ -19,4 +19,3 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
-rm -rf package/feeds/routing/olsrd/patches/012-gpsd.patch
